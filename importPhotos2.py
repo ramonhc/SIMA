@@ -5,7 +5,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.poolmanager import PoolManager
 
 # Token de acceso a la API de Smartsheet
-token = 'h6cp0NxI8RAyU11xZrYlAnIX5cN7E77EaHZQp'
+
 smartsheet_client = smartsheet.Smartsheet(token)
 
 # Deshabilitar la verificación de certificados y check_hostname
